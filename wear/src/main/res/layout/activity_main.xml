@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.appwhysitservice2.MainActivity"
+    tools:deviceIds="wear_square">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Wake-Up Time" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="45dp"
+            android:onClick="Context1"
+            android:id="@+id/btn1"
+            android:textSize="15dp"
+            android:text="Hour" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text=":"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="45dp"
+            android:onClick="Context2"
+            android:id="@+id/btn2"
+            android:textSize="15dp"
+            android:text="Min" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Sleeping Time" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="45dp"
+            android:onClick="Context3"
+            android:id="@+id/btn3"
+            android:textSize="15dp"
+            android:text="Hour" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text=":"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="45dp"
+            android:onClick="Context4"
+            android:id="@+id/btn4"
+            android:textSize="15dp"
+            android:text="Min" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:onClick="Context5"
+            android:id="@+id/btn5"
+            android:textSize="10dp"
+            android:text="START" />
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:onClick="Context6"
+            android:id="@+id/btn6"
+            android:textSize="10dp"
+            android:text="TV" />
+    </LinearLayout>
+</LinearLayout>

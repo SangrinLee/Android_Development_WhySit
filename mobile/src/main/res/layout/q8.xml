@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Right now, how nervous or stressed do you feel? From not at all (1) to very stressed (5)"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#f00"
+        android:id="@+id/q8_text1"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q8_seekbar"
+        android:max="5"
+        android:progress="-10"
+        android:thumbOffset="-10dp" />
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/q8_text2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="q8_btn"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/q8_btn"
+        android:visibility="gone"
+        android:text="Next Survey!" />
+
+</LinearLayout>
