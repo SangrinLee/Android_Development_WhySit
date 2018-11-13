@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Westley\Desktop\499Project\AppWhysitService2\wear\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af820823269dc04fc7ba16b2a5a11c383af644eb">
+        <dex dex="C:\Users\Westley\Desktop\499Project\AppWhysitService2\wear\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1a84f5a6900a293fd6326a02f8b1c8ab41ad931e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Westley\Desktop\499Project\AppWhysitService2\wear\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Westley\Desktop\499Project\AppWhysitService2\wear\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_76abd844935a532813e3ef53a8ff373d338bfc7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Westley\Desktop\499Project\AppWhysitService2\mobile\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfed77857639a779406ff4a222c6f6820c49daab">
+        <dex dex="C:\Users\Westley\Desktop\499Project\AppWhysitService2\mobile\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_033a2b57d4366726ac66bc7670105cd5d1a9a04d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Westley\Desktop\499Project\AppWhysitService2\mobile\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Westley\Desktop\499Project\AppWhysitService2\mobile\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_223dba596db41899f1bff181b8109c03169cb448\classes.dex" />
+    </item>
+
+</items>
